@@ -1,14 +1,14 @@
 # Find By Primary Key
 
-This is a plugin for the simple ORM library that allows you to easily add in support for using just the primary key with the repository's `find()` method.  This plugin only works with repository referencing a model that has a single primary key value.
+This is a plugin for the [simple ORM](https://github.com/simple-orm/f) library that allows you to easily add in support for using just the primary key with the repository's `find()` method.  This plugin only works with repository referencing a model that has a single primary key value.
 
 # Documentation
 
-Generally, if you want to find a model by the primary key with the simple ORM library, you should have to do this:
+Generally, if you want to find a model by the primary key with the [simple ORM](https://github.com/simple-orm/core) library, you should have to do this:
 
 ```javascript
 var model = yield dataLayer.user.find({
-  where: {
+  where: {s
     id: 123
   }
 });
